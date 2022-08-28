@@ -1,0 +1,69 @@
+
+    /*CSS Reset*/
+    body{
+        margin: 0px;
+        padding: 0px;
+        background: url(img/fitness.jpeg);
+        color: white;
+        
+
+    }
+    .left{
+            border: 2px solid red;
+            display: inline-block;
+            position: absolute;
+            left: 34px;
+            top: 20px;
+            align-items: center;
+    }
+    .left img{
+        width: 69px;
+        filter: invert(100%);
+        
+    }
+    
+    .mid{
+            border: 2px solid green;
+            display: block;
+            width: 48%;
+            margin: 20px auto;
+
+    }
+    .right{
+            border: 2px solid salmon;
+            display: inline-block;
+            position: absolute;
+            right: 34px;
+            top: 20px;
+    }
+
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 17px;
+        text-align: center;
+    }
+    .navbar li a{
+        color: aliceblue;
+        text-decoration: none;
+        padding: 25px;
+    }
+    .navbar li a:hover , .navbar li a.active{
+        text-decoration: underline;
+        color: blanchedalmond;
+    }
+    .btn{
+        margin: 0px 9px;
+        background-color: black;
+        color: aliceblue;
+        padding: 4px 15px;
+        border: 2px solid gray;
+        border-radius: 4px;
+        font-size: 14px;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color: rgb(45, 43, 43);
+    }
