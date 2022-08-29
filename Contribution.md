@@ -1,4 +1,4 @@
-<h2 align="center"> Dummy Gym Project </h2>
+<h2 align="center"> Contribution Procedure </h2>
 
 <h3>To contribute to the project, follow these steps:</h3>
 
