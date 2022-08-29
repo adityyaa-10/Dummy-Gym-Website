@@ -32,7 +32,7 @@ $ git clone https://github.com/adityyaa-10/Dummy-Gym-Website.git
 cd Dummy-Gym-Website
 ```
 
-4. Open index.html file with Live Server Extension in VS Code
+**5.** Open index.html file with Live Server Extension in VS Code
 
 <h3>Prerequisites</h3
 
