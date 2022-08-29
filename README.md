@@ -40,3 +40,8 @@ cd Dummy-Gym-Website
 2. Live Server Extension in VS Code
 
 
+<h3 align="center">The final dummy project would appear something like this</h3>
+
+![image](https://user-images.githubusercontent.com/103577578/187182998-9a92185d-0151-492c-9af1-bc7a124c70a0.png)
+
+
