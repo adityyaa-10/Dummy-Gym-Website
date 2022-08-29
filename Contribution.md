@@ -1,6 +1,6 @@
 <h2 align="center"> Dummy Gym Project </h2>
 
-<h3>To open the project in your device, follow these steps:</h3>
+<h3>To contribute to the project, follow these steps:</h3>
 
 1. Fork the project.
 2. Copy the URL of the Forked Repo.
@@ -25,23 +25,32 @@ $ gh repo clone adityyaa-10/Dummy-Gym-Website
 $ git clone https://github.com/adityyaa-10/Dummy-Gym-Website.git
 ```
 
+**4.** Create a new working branch 
 
-**4.** Navigate to the new project directory:
+```bash 
+$ git checkout -b [your_branch_name]
+```
+
+
+**5.** Navigate to the new project directory:
 
 ```bash
 cd Dummy-Gym-Website
 ```
 
-**5.** Open index.html file with Live Server Extension in VS Code
+**6.** Make the changes in any IDE of your preference
 
-<h3>Prerequisites</h3
-
-1. VS Code
-2. Live Server Extension in VS Code
-
-
-<h3 align="center">The final dummy project would appear something like this</h3>
-
-![image](https://user-images.githubusercontent.com/103577578/187182998-9a92185d-0151-492c-9af1-bc7a124c70a0.png)
-
+**7.** Add the changes you made
+```bash
+$ git add .
+```
+**8.** Commit your changes with a short message
+```bash
+$ git commit -m"message"
+```
+**9.** Push the changes of your branch 
+```bash
+$ git push -u origin [your_branch_name]
+```
+**10.** Make a pull request on Github
 
