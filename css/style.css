@@ -32,6 +32,9 @@ body {
 .left:hover {
         cursor: pointer;
 }
+.left div:hover{
+    color: bisque;
+}
 
 .mid {
     position: relative;
@@ -91,7 +94,7 @@ body {
 .container {
     border: 2px solid whitesmoke;
     margin: 70px auto;
-    width: 50%;
+    width: 40%;
     padding: 30px;
     border-radius: 29px;
 
@@ -114,7 +117,26 @@ body {
     width: 60%;
     margin: 17px auto;
 }
-
+.container h1:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: bisque;
+}
 .container button:hover{
     background-color: rgb(100, 98, 98);
 }
+
+footer{
+    background-color: rgb(35, 25, 99);
+    margin-bottom: 0;
+    height: 70px;
+}
+/* footer a{
+    text-align: center;
+} */
+footer a i {
+    color: #ffffff;
+    font-size: 40px;
+    padding: 15px;
+}
+
