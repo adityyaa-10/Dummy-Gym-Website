@@ -4,18 +4,22 @@ body {
 
     margin: 0px auto;
     padding: 0px;
-    background: url(img/fitness.jpeg);
+    background: #0d1117;
     color: white;
 
 
 }
-
+.header-section{
+    background-color: rgb(35, 25, 99);
+    height: 100px;
+    margin-top: -21px;
+}
 .left {
   
     display: inline-block;
     position: absolute;
     left: 34px;
-    top: 12px;
+    top: 7px;
     align-items: center;
 }
 
@@ -30,7 +34,7 @@ body {
 }
 
 .mid {
-    
+    position: relative;
     display: block;
     width: 48%;
     margin: 20px auto;
@@ -38,8 +42,7 @@ body {
 }
 
 
-.right {
-    
+.right {    
     display: inline-block;
     position: absolute;
     right: 34px;
@@ -48,6 +51,7 @@ body {
 
 .navbar {
     display: inline-block;
+    margin-top: 5%;
 }
 
 .navbar li {
@@ -86,9 +90,9 @@ body {
 
 .container {
     border: 2px solid whitesmoke;
-    margin: 75px auto;
-    width: 33%;
-    padding: 57px;
+    margin: 70px auto;
+    width: 50%;
+    padding: 30px;
     border-radius: 29px;
 
 }
@@ -97,7 +101,7 @@ body {
     font-family: 'Roboto Slab', serif;
     text-align: center;
     display: block;
-    width: 421px;
+    width: 60%;
     padding: 2px;
     border: 2px solid black;
     margin: 7px auto;
@@ -107,7 +111,7 @@ body {
 
 .container button {
     display: block;
-    width: 86%;
+    width: 60%;
     margin: 17px auto;
 }
 
